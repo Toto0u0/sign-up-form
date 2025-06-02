@@ -15,22 +15,27 @@
 .container {
     display: flex;
     flex-direction: row;
+    width: 120%;
 }
 
 .sidebar {
     display: flex;
     align-items: left;
-    width: 25%;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-bottom: -10px;
     background-image: url("/home/antonio/repos/sign-up-form/pexels-danielabsi-952670.jpg");
-    background-size: cover;
+    background-size: auto;
     min-width: 100px;
-
-
+    max-width: 500px;
 }
 
 
-.sidebar:after {
+.sidebar:before {
     background-image: url("/home/antonio/repos/sign-up-form/odin-lined.png");
+    width: 50%;
     height: 200px;
 }
 
@@ -38,10 +43,13 @@
 .form-container {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
+    margin-top: -10px;
+    margin-right: -1000px;
     background-color: lightgrey;
-    justify-content: center;
     min-width: 600px;
+    margin-bottom: -10px;
+
 
 }
 
@@ -54,6 +62,7 @@
     font-size: 1.5rem;
     padding: 50px;
     align-items: center;
+    text-align: center;
 
 }
 
@@ -84,12 +93,19 @@
 input {
     padding: 5px;
     border-radius: 7px;
+    background-color: white;
+}
+
+label {
+    color: black;
+
 }
 
 p[id$="form"] {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    font-weight: bold;
 }
 
 #p1 {
@@ -105,6 +121,13 @@ p[id$="form"] {
     justify-content: center;
     align-items: center;
     margin-bottom: 100%;
+    background-color: gray;
+}
+
+.form-container {
+    display: flex;
+    width: 70%;
+    background-color: gray;
 }
 
 button {
@@ -116,6 +139,7 @@ button {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    background-color: white;
 }
 
 a {
@@ -132,4 +156,6 @@ a {
   margin: auto;
   margin-top: 63%;
 }
+
+
 
