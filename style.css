@@ -1,0 +1,135 @@
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    display: flex;
+    align-items: left;
+    width: 25%;
+    background-image: url("/home/antonio/repos/sign-up-form/pexels-danielabsi-952670.jpg");
+    background-size: cover;
+    min-width: 100px;
+
+
+}
+
+
+.sidebar:after {
+    background-image: url("/home/antonio/repos/sign-up-form/odin-lined.png");
+    height: 200px;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: lightgrey;
+    justify-content: center;
+    min-width: 600px;
+
+}
+
+.form-header { 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 10%;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 50px;
+    align-items: center;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 185, 187);
+}
+
+.form-line-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-line-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-line-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    padding: 5px;
+    border-radius: 7px;
+}
+
+p[id$="form"] {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#p1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100%;
+}
+
+button {
+    display: flex;
+    width: 150px;
+    padding: 10px;
+    height: 40%;
+    background-color: lightslategray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+#odin {
+  display: flex;
+  height: auto;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 63%;
+}
+
